@@ -12,8 +12,18 @@ class LinkedListNode {
     public static LinkedListNode createARandomLinkList(int n) {
         LinkedListNode head = new LinkedListNode(1);
         LinkedListNode iterator = head;
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < n-1; i++) {
             iterator.next = new LinkedListNode(i * Double.valueOf(Math.random() * 100).intValue());
+            iterator = iterator.next;
+        }
+        return head;
+    }
+
+    public static LinkedListNode createARandomLinkListWithMod(int n, int base) {
+        LinkedListNode head = new LinkedListNode(Double.valueOf(Math.random() * 100).intValue() % base);
+        LinkedListNode iterator = head;
+        for (int i = 0; i < n-1; i++) {
+            iterator.next = new LinkedListNode((i * Double.valueOf(Math.random() * 100).intValue()) % base);
             iterator = iterator.next;
         }
         return head;
@@ -29,13 +39,23 @@ class LinkedListNode {
         System.out.println();
 
     }
+
+    public static void displayReverseLL(LinkedListNode iterator) {
+        if (iterator == null) {
+            return;
+        }
+        displayReverseLL(iterator.next);
+        System.out.print(iterator.value + " ");
+
+
+    }
 }
 
 public class KthElementLL {
     public static void main(String[] args) {
         LinkedListNode head = LinkedListNode.createARandomLinkList(10);
         LinkedListNode iterator = head;
-        LinkedListNode.displayLL(iterator,"newList");
+        LinkedListNode.displayLL(iterator, "newList");
         int K = 5;
         iterator = head;
         getKthBYPrint(iterator, 3);
