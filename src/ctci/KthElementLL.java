@@ -12,7 +12,7 @@ class LinkedListNode {
     public static LinkedListNode createARandomLinkList(int n) {
         LinkedListNode head = new LinkedListNode(1);
         LinkedListNode iterator = head;
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             iterator.next = new LinkedListNode(i * Double.valueOf(Math.random() * 100).intValue());
             iterator = iterator.next;
         }
@@ -22,7 +22,7 @@ class LinkedListNode {
     public static LinkedListNode createARandomLinkListWithMod(int n, int base) {
         LinkedListNode head = new LinkedListNode(Double.valueOf(Math.random() * 100).intValue() % base);
         LinkedListNode iterator = head;
-        for (int i = 0; i < n-1; i++) {
+        for (int i = 0; i < n - 1; i++) {
             iterator.next = new LinkedListNode((i * Double.valueOf(Math.random() * 100).intValue()) % base);
             iterator = iterator.next;
         }
