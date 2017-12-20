@@ -1,4 +1,5 @@
 package design.onlineReader;
+
 //TODO hashcode equal + To String
 public class User {
     private String name;

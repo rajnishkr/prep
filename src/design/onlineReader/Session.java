@@ -6,18 +6,19 @@ public class Session {
     private Integer pageNumber;
     private String sessionStatus;
 
-    public Session(User activeUser, Book curentBook){
-        this.activeUser=activeUser;
-        this.currentBook=curentBook;
-        this.pageNumber=1;
-        this.sessionStatus="active";
+    public Session(User activeUser, Book curentBook) {
+        this.activeUser = activeUser;
+        this.currentBook = curentBook;
+        this.pageNumber = 1;
+        this.sessionStatus = "active";
     }
-    public boolean isSessionActive(){
+
+    public boolean isSessionActive() {
         return this.sessionStatus.equalsIgnoreCase("active");
     }
 
-    public boolean isBookCompeleted(){
-        return this.pageNumber>currentBook.getTotalPages();
+    public boolean isBookCompeleted() {
+        return this.pageNumber > currentBook.getTotalPages();
     }
 
     //TODO turn Page fwd
