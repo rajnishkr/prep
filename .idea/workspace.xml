@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c35ed8-10bc-4e5e-968f-927c00bea845" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design/hanoi/Hanoi.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design/hanoi/Tower.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dynamic/PowerSample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/dynamic/TripleStep.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/recurssive/MultiplicationUsingAddition.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/recurssive/PermutString.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/recurssive/PermutationWithRepition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/recurssive/PrintValidParenthesis.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,19 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HashMapImp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/hashTable/HashMapImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
-              <folding>
-                <element signature="e#1787#1788#0" expanded="true" />
-                <element signature="e#1849#1850#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HashMapTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/hashTable/HashMapTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -103,11 +86,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermutString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PermutString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recurssive/PermutString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="300">
+              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PermutationWithRepition.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/recurssive/PermutationWithRepition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrintValidParenthesis.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/recurssive/PrintValidParenthesis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -118,16 +123,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
               <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="99" column="22" lean-forward="false" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -201,6 +196,8 @@
         <option value="$PROJECT_DIR$/src/design/hanoi/Hanoi.java" />
         <option value="$PROJECT_DIR$/src/design/hanoi/Tower.java" />
         <option value="$PROJECT_DIR$/src/recurssive/PermutString.java" />
+        <option value="$PROJECT_DIR$/src/recurssive/PermutationWithRepition.java" />
+        <option value="$PROJECT_DIR$/src/recurssive/PrintValidParenthesis.java" />
       </list>
     </option>
   </component>
@@ -294,7 +291,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PermutString">
+  <component name="RunManager" selected="Application.PrintValidParenthesis">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -359,14 +356,14 @@
       <module name="prep" />
       <envs />
     </configuration>
-    <configuration name="PowerSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PermutationWithRepition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="dynamic.*" />
+          <option name="PATTERN" value="recurssive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="dynamic.PowerSample" />
+      <option name="MAIN_CLASS_NAME" value="recurssive.PermutationWithRepition" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -378,14 +375,14 @@
       <module name="prep" />
       <envs />
     </configuration>
-    <configuration name="TripleStep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="PrintValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="dynamic.*" />
+          <option name="PATTERN" value="recurssive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="dynamic.TripleStep" />
+      <option name="MAIN_CLASS_NAME" value="recurssive.PrintValidParenthesis" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -472,19 +469,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.TripleStep" />
-      <item index="1" class="java.lang.String" itemvalue="Application.PowerSample" />
-      <item index="2" class="java.lang.String" itemvalue="Application.MultiplicationUsingAddition" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Hanoi" />
-      <item index="4" class="java.lang.String" itemvalue="Application.PermutString" />
+      <item index="0" class="java.lang.String" itemvalue="Application.MultiplicationUsingAddition" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Hanoi" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PermutString" />
+      <item index="3" class="java.lang.String" itemvalue="Application.PermutationWithRepition" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PrintValidParenthesis" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.PermutString" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Hanoi" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MultiplicationUsingAddition" />
-        <item index="3" class="java.lang.String" itemvalue="Application.PowerSample" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TripleStep" />
+        <item index="0" class="java.lang.String" itemvalue="Application.PrintValidParenthesis" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PermutationWithRepition" />
+        <item index="2" class="java.lang.String" itemvalue="Application.PermutString" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Hanoi" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MultiplicationUsingAddition" />
       </list>
     </recent_temporary>
   </component>
@@ -505,12 +502,12 @@
       <workItem from="1512627164437" duration="4574000" />
       <workItem from="1512872512932" duration="14549000" />
       <workItem from="1513454442486" duration="588000" />
-      <workItem from="1513723584839" duration="21256000" />
+      <workItem from="1513723584839" duration="23447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46953000" />
+    <option name="totallyTimeSpent" value="49144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -524,7 +521,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3432836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3432836" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28606966" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -590,32 +587,18 @@
           <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/recurssive/PrintValidParenthesis.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/wiki/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wiki/WikiAssit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#572#598#0" expanded="false" />
-            <element signature="e#670#696#0" expanded="false" />
-            <element signature="e#766#792#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/src.zip!/java/lang/Cloneable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1100,8 +1083,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/recurssive/PermutString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recurssive/PermutationWithRepition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/recurssive/PrintValidParenthesis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding />
         </state>
       </provider>
