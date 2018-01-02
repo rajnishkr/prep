@@ -28,12 +28,12 @@ public class Board {
     public void init() {
         for (int i = 0; i < size; i++) {
             for (int j = 0; j < size; j++) {
-                board[i][j] = new Point((i + 1) * (j + 1), ConnectionType.NO_VALUE);
+                board[i][j] = new Point((size * i) + (j + 1), ConnectionType.NO_VALUE);
             }
         }
 
         for (int i = 0; i < size * size; i++) {
-            for (int j = i + 1; j <= i + 6 &&  j < size * size; j++) {
+            for (int j = i + 1; j <= i + 6 && j < size * size; j++) {
                 board[i / size][i % size].getToPoint().add(board[j / size][j % size]);
             }
         }
@@ -41,7 +41,7 @@ public class Board {
         Random random = new Random();
         for (int i = 0; i < numberOfSnakes; i++) {
             int fromRow = random.nextInt(size);
-            int fromColumn = random.nextInt(size);
+            int fromColumn = random.nextInt(size-1);
             int toRow = random.nextInt(size);
             int toColumn = random.nextInt(size);
             board[fromRow][fromColumn].setConnectionType(ConnectionType.SNAKE);
