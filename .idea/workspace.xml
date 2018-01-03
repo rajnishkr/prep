@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1c35ed8-10bc-4e5e-968f-927c00bea845" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/flipkart/Question1.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/design/snakeLadder/Board.java" afterPath="$PROJECT_DIR$/src/design/snakeLadder/Board.java" />
-      <change beforePath="$PROJECT_DIR$/src/design/snakeLadder/MinimumMoves.java" afterPath="$PROJECT_DIR$/src/design/snakeLadder/MinimumMoves.java" />
-      <change beforePath="$PROJECT_DIR$/src/design/snakeLadder/Point.java" afterPath="$PROJECT_DIR$/src/design/snakeLadder/Point.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,16 +33,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
               <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Coins.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dynamic/Coins.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" lean-forward="false" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -100,14 +88,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinimumMoves.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinimumMoves.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/design/snakeLadder/MinimumMoves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
+            <state relative-caret-position="667">
               <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
               <folding>
                 <element signature="e#452#466#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Question1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/flipkart/Question1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,7 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/wiki/WikiAssit.java" />
         <option value="$PROJECT_DIR$/src/tlvprocessor/Command.java" />
         <option value="$PROJECT_DIR$/src/tlvprocessor/Input.java" />
         <option value="$PROJECT_DIR$/src/tlvprocessor/Parser.java" />
@@ -215,6 +212,7 @@
         <option value="$PROJECT_DIR$/src/design/snakeLadder/Board.java" />
         <option value="$PROJECT_DIR$/src/design/snakeLadder/Point.java" />
         <option value="$PROJECT_DIR$/src/design/snakeLadder/MinimumMoves.java" />
+        <option value="$PROJECT_DIR$/src/flipkart/Question1.java" />
       </list>
     </option>
   </component>
@@ -260,38 +258,6 @@
             </path>
             <path>
               <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="deckCards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design" type="462c0819:PsiDirectoryNode" />
-              <item name="snakeLadder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dynamic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="prep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="recurssive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="prep" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -328,32 +294,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumMoves">
+  <component name="RunManager" selected="Application.Question1">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="Coins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dynamic.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="dynamic.Coins" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="prep" />
-      <envs />
     </configuration>
     <configuration name="EightQueenPlacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -420,6 +367,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="recurssive.Question" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="prep" />
+      <envs />
+    </configuration>
+    <configuration name="Question1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="flipkart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="flipkart.Question1" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -506,19 +472,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Coins" />
-      <item index="1" class="java.lang.String" itemvalue="Application.EightQueenPlacement" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Question" />
-      <item index="3" class="java.lang.String" itemvalue="Application.ExpressionEval" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinimumMoves" />
+      <item index="0" class="java.lang.String" itemvalue="Application.EightQueenPlacement" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Question" />
+      <item index="2" class="java.lang.String" itemvalue="Application.ExpressionEval" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinimumMoves" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Question1" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.MinimumMoves" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ExpressionEval" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EightQueenPlacement" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Question" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Coins" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Question1" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MinimumMoves" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ExpressionEval" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EightQueenPlacement" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Question" />
       </list>
     </recent_temporary>
   </component>
@@ -540,16 +506,15 @@
       <workItem from="1512872512932" duration="14549000" />
       <workItem from="1513454442486" duration="588000" />
       <workItem from="1513723584839" duration="29551000" />
-      <workItem from="1514866825857" duration="9604000" />
+      <workItem from="1514866825857" duration="11845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64852000" />
+    <option name="totallyTimeSpent" value="67093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -570,7 +535,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39925373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -661,8 +626,14 @@
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/flipkart/Question1.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="39" />
+      <option name="time" value="40" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,13 +657,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/graph/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/graph/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1099,11 +1063,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/design/snakeLadder/MinimumMoves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
+        <state relative-caret-position="667">
           <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding>
             <element signature="e#452#466#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flipkart/Question1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="54" column="41" lean-forward="false" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
