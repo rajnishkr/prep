@@ -17,21 +17,21 @@ public class Question1 {
         int m = sc.nextInt();
 
 
-        int solution = getSolution(n, input, m);
+        long solution = getSolution(n, input, m);
         System.out.println(solution);
 
     }
 
-    private static int getSolution(int n, int[] input, int m) {
-        int dp[] = new int[n + 1];
-        int solution = 0;
+    private static long getSolution(int n, int[] input, int m) {
+        long dp[] = new long[n + 1];
+        long solution = 0;
         int start = 0;
         int prevOne = -1;
         int countOfOdds = 0;
         dp[0] = 0;
 
         for (int i = 0; i < n; i++) {
-            int temp=solution;
+            long temp = solution;
             if (input[i] % 2 != 0) {
                 if (prevOne == -1) {
                     prevOne = i;
@@ -56,7 +56,7 @@ public class Question1 {
                 }
             }
 
-            dp[i] = solution-temp;
+            dp[i] = solution - temp;
 
         }
         return solution;
